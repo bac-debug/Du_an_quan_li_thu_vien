@@ -38,7 +38,8 @@ Mục tiêu: Giúp số hóa quy trình quản lý thư viện, giảm thiểu t
 - **Quản lý mã nguồn:** Git & GitHub
 
 ## 🚀 3. Một số hình ảnh hệ thống
-<img src="aiotlab_logo.png" alt="User" width="170"/>
+<img src="Screenshot 2025-09-18 082221" alt="User" width="170"/>
+<img src="Screenshot 2025-09-18 082437" alt="Admin" width="170"/>
 
 ## ⚙️ 4. Các bước cài đặtđặt
 

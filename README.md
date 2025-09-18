@@ -38,9 +38,22 @@ Mục tiêu: Giúp số hóa quy trình quản lý thư viện, giảm thiểu t
 - **Quản lý mã nguồn:** Git & GitHub
 
 ## 🚀 3. Một số hình ảnh hệ thống
-<img src="Screenshot 2025-09-18 082221.png" alt="User" width="170"/>
-<img src="Screenshot 2025-09-18 082437.png" alt="Admin" width="170"/>
+<p align="center">
+    <em>Giao diện khi kết nối thành công với Server</em><br/>
+    <img width="1401" height="842" alt="Auto Send" src="Screenshot 2025-09-18 082422.png" />
+</p>
 
+<p align="center">
+    <em>Giao diện người dùng</em><br/>
+    <img width="1387" height="819" alt="UI Main" src="Screenshot 2025-09-18 082221.png" />
+</p>
+
+<p align="center">
+    <em>Giao diện Admin</em><br/>
+    <img width="1401" height="842" alt="Auto Send" src="Screenshot 2025-09-18 082437.png" />
+</p>
+
+---
 ## ⚙️ 4. Các bước cài đặtđặt
 
 ### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết

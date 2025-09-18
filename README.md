@@ -1,6 +1,6 @@
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
-    🎓 Faculty of Information Technology (DaiNam University)
+    🎓 Khoa Công nghệ thông tin (Đại học Đại Nam)
     </a>
 </h2>
 <h2 align="center">
@@ -19,7 +19,7 @@
 
 </div>
 
-## 📖 1. Giới thiệu
+## 📖 1. Giới thiệu hệ thống
 Platform ERP được áp dụng vào học phần Thực tập doanh nghiệp dựa trên mã nguồn mở Odoo. 
 
 ## 🔧 2. Các công nghệ được sử dụng
@@ -36,12 +36,10 @@ Platform ERP được áp dụng vào học phần Thực tập doanh nghiệp d
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 </div>
 
-## 🚀 3. Các project đã thực hiện dựa trên Platform
+## 🚀 3. Một số hình ảnh hệ thống
 
-Một số project sinh viên đã thực hiện:
-- #### [Khoá 15](./docs/projects/K15/README.md)
-- #### [Khoá 16]() (Coming soon)
-## ⚙️ 4. Cài đặt
+
+## ⚙️ 4. Các bước cài đặtđặt
 
 ### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
 
@@ -75,25 +73,11 @@ Khởi tạo database trên docker bằng việc thực thi file dockercompose.y
 sudo docker-compose up -d
 ```
 ### 4.3. Setup tham số chạy cho hệ thống
-Tạo tệp **odoo.conf** có nội dung như sau:
-```
-[options]
-addons_path = addons
-db_host = localhost
-db_password = odoo
-db_user = odoo
-db_port = 5431
-xmlrpc_port = 8069
-```
-Có thể kế thừa từ file **odoo.conf.template**
-### 4.4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
-Lệnh chạy
-```
-python3 odoo-bin.py -c odoo.conf -u all
-```
-Người sử dụng truy cập theo đường dẫn _http://localhost:8069/_ để đăng nhập vào hệ thống.
 
-## 📝 5. License
+### 4.4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
+
+
+## 📝 5. Liên hệ
 
 © 2024 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
 

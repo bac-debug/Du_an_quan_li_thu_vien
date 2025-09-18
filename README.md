@@ -20,23 +20,32 @@
 </div>
 
 ## 📖 1. Giới thiệu hệ thống
-Hệ thống Quản Lý Thư Viện được xây dựng nhằm hỗ trợ quản lý sách, người dùng và hoạt động mượn/trả sách.  
-Chức năng chính:
-- Đăng ký và đăng nhập người dùng.
-- Quản lý danh mục sách.
-- Quản lý thông tin mượn và trả sách.
-- Giao tiếp client - server thông qua TCP Socket.
+Đây là một ứng dụng Client-Server viết bằng Java Socket cho phép:
 
-Mục tiêu: Giúp số hóa quy trình quản lý thư viện, giảm thiểu thao tác thủ công, tăng tính chính xác và hiệu quả.
+    - Người dùng (User) đăng ký, đăng nhập, xem danh sách sách, mượn sách.
 
----
+    - Quản trị viên (Admin) thêm, sửa, xóa sách và duyệt yêu cầu mượn.
+
+    - Server lưu dữ liệu vào file data.txt để quản lý người dùng, sách và danh sách mượn.
+
+Cấu trúc chính:
+
+    - Server.java: Xử lý kết nối, lưu dữ liệu, quản lý người dùng và sách.
+
+    - ClientUser.java: Giao diện console cho người dùng.
+
+    - ClientAdmin.java: Giao diện console cho quản trị viên.
 
 
 ## 🔧 2. Các công nghệ được sử dụng
-- **Ngôn ngữ lập trình:** Java
-- **Mô hình client-server:** Socket TCP (`ServerSocket` & `Socket`)
-- **Quản lý mã nguồn:** Git & GitHub
+  
+- **☕ Java SE 8+**
 
+- **🌐 Java Socket (TCP/IP)**
+
+- **💾 File I/O (đọc/ghi dữ liệu vào data.txt)**
+
+- **🖥 Eclipse IDE**
 ## 🚀 3. Một số hình ảnh hệ thống
 <p align="center">
     <em>Giao diện khi kết nối thành công với Server</em><br/>
@@ -54,48 +63,60 @@ Mục tiêu: Giúp số hóa quy trình quản lý thư viện, giảm thiểu t
 </p>
 
 ---
-## ⚙️ 4. Các bước cài đặtđặt
+## ⚙️ 4. Các bước cài đặt
+### 4.1. Yêu cầu hệ thống
+```
+    - Cài đặt Java JDK 8+ (kiểm tra bằng lệnh java -version và javac -version).
 
-### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
+    - Cài đặt Git để clone repository.
 
-#### 4.1.1. Tải project.
+    - (Khuyến khích) Cài đặt Eclipse IDE hoặc IntelliJ IDEA để dễ quản lý project.
 ```
-git clone https://gitlab.com/anhlta/odoo-fitdnu.git
+### 4.2. Cấu trúc thư mục
 ```
-#### 4.1.2. Cài đặt các thư viện cần thiết
-Người sử dụng thực thi các lệnh sau đề cài đặt các thư viện cần thiết
+Du_an_quan_li_thu_vien/
+    │── src/
+    │   ├── Server/
+    │   │   └── Server.java
+    │   └── user/
+    │       ├── ClientAdmin.java
+    │       └── ClientUser.java
+    │── data.txt
+    │── README.md
 
 ```
-sudo apt-get install libxml2-dev libxslt-dev libldap2-dev libsasl2-dev libssl-dev python3.10-distutils python3.10-dev build-essential libssl-dev libffi-dev zlib1g-dev python3.10-venv libpq-dev
-```
-#### 4.1.3. Khởi tạo môi trường ảo.
-- Khởi tạo môi trường ảo
-```
-python3.10 -m venv ./venv
-```
-- Thay đổi trình thông dịch sang môi trường ảo
-```
-source venv/bin/activate
-```
-- Chạy requirements.txt để cài đặt tiếp các thư viện được yêu cầu
-```
-pip3 install -r requirements.txt
-```
-### 4.2. Setup database
 
-Khởi tạo database trên docker bằng việc thực thi file dockercompose.yml.
+### 4.3. Chạy Server
 ```
-sudo docker-compose up -d
+    - Vào thư mục src/Server/Server.java.
+
+    - Chuột phải → Run As → Java Application.
+
+    - Server đã sẵn sàng lắng nghe kết nối từ client.
 ```
-### 4.3. Setup tham số chạy cho hệ thống
+### 4.4. Chạy ClientUser (người dùng)
 
-### 4.4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
+```
+    - Vào thư mục src/user/ClientUser.java.
 
+    - Chuột phải → Run As → Java Application.
+```
+### 4.5. Chạy ClientAdmin (quản trị viên)
+```
+    - Vào thư mục src/user/ClientAdmin.java.
+
+    - Chuột phải → Run As → Java Application.
+```
 
 ## 📝 5. Liên hệ
 
-© 2024 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+- 📧 Email: **nguyenbacdz04@gmail.com**  
+- 📞 SĐT: **0876476687**  
 
 ---
+
+<p align="center">
+    ✍️ <em>README này được thiết kế bởi Bac Nguyen</em>
+</p>
 
     

@@ -110,7 +110,6 @@ Du_an_quan_li_thu_vien/
 ## 📝 5. Liên hệ
 
 - 📧 Email: **nguyenbacdz04@gmail.com**  
-- 📞 SĐT: **0876476687**  
 
 ---
 

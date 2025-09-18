@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    PLATFORM ERP
+    QUẢN LÍ SÁCH-THƯ VIỆN QUA MẠNG
 </h2>
 <div align="center">
     <p align="center">
@@ -20,24 +20,25 @@
 </div>
 
 ## 📖 1. Giới thiệu hệ thống
-Platform ERP được áp dụng vào học phần Thực tập doanh nghiệp dựa trên mã nguồn mở Odoo. 
+Hệ thống Quản Lý Thư Viện được xây dựng nhằm hỗ trợ quản lý sách, người dùng và hoạt động mượn/trả sách.  
+Chức năng chính:
+- Đăng ký và đăng nhập người dùng.
+- Quản lý danh mục sách.
+- Quản lý thông tin mượn và trả sách.
+- Giao tiếp client - server thông qua TCP Socket.
+
+Mục tiêu: Giúp số hóa quy trình quản lý thư viện, giảm thiểu thao tác thủ công, tăng tính chính xác và hiệu quả.
+
+---
+
 
 ## 🔧 2. Các công nghệ được sử dụng
-<div align="center">
-
-### Hệ điều hành
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-### Công nghệ chính
-[![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)](https://www.odoo.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.w3.org/XML/)
-### Cơ sở dữ liệu
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-</div>
+- **Ngôn ngữ lập trình:** Java
+- **Mô hình client-server:** Socket TCP (`ServerSocket` & `Socket`)
+- **Quản lý mã nguồn:** Git & GitHub
 
 ## 🚀 3. Một số hình ảnh hệ thống
-
+<img src="aiotlab_logo.png" alt="User" width="170"/>
 
 ## ⚙️ 4. Các bước cài đặtđặt
 

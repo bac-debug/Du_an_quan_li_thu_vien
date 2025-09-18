@@ -82,7 +82,6 @@ Du_an_quan_li_thu_vien/
     │       ├── ClientAdmin.java
     │       └── ClientUser.java
     │── data.txt
-    │── README.md
 
 ```
 

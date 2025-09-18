@@ -54,12 +54,12 @@ Cấu trúc chính:
 
 <p align="center">
     <em>Giao diện người dùng</em><br/>
-    <img width="1387" height="819" alt="UI Main" src="Screenshot 2025-09-18 082221.png" />
+    <img width="1387" height="819" alt="UI Main" src="Screenshot 2025-09-18 110627.png" />
 </p>
 
 <p align="center">
     <em>Giao diện Admin</em><br/>
-    <img width="1401" height="842" alt="Auto Send" src="Screenshot 2025-09-18 082437.png" />
+    <img width="1401" height="842" alt="Auto Send" src="Screenshot 2025-09-18 110641.png" />
 </p>
 
 ---

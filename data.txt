@@ -1,4 +1,6 @@
 #USERS
 12345;12345
 #BOOKS
+sgk;9;hahhaa
+lập trình mạng;12;hhhhh
 #BORROWS

@@ -51,6 +51,10 @@ Cấu trúc chính:
     <em>Giao diện khi kết nối thành công với Server</em><br/>
     <img width="1401" height="842" alt="Auto Send" src="Screenshot 2025-09-18 082422.png" />
 </p>
+<p align="center">
+    <em>Giao diện khi người dùng đăng nhập</em><br/>
+    <img width="1401" height="842" alt="Auto Send" src="Screenshot 2025-09-25 074950.png" />
+</p>
 
 <p align="center">
     <em>Giao diện người dùng</em><br/>

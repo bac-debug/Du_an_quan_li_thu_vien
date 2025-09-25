@@ -113,8 +113,8 @@ Du_an_quan_li_thu_vien/
 
 ## 📝 5. Liên hệ
 
-- Khoa Công nghệ thông tin-Trường Đại học Đại Nam
-- Lớp CNTT 16-04
+- Khoa: Công nghệ thông tin-Trường Đại học Đại Nam
+- Lớp: CNTT 16-04
 - Email: **nguyenbacdz04@gmail.com**  
 
 ---
